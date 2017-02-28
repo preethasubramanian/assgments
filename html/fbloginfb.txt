@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+  <style >
+body {
+    background-color: lightblue;
+}
+</style>
+<style >
+
+section {
+    padding-top:50px;
+    padding-bottom:40px;
+}
+
+	#email,#password {
+    width: 10%;
+    border-radius: 2px;
+
+}
+.frist{
+	background-color: blue;
+	align-items: lift;
+
+}
+
+#frist {
+   background-color: blue;
+   border: none;
+   width: 100%;
+   height: 70px;
+   align-items: right;
+}
+#second{
+	border-color:black;
+   width: 50%;
+   margin-right:100%;
+   margin-top: -30%;
+   position:relative;
+
+  
+   align-items: right;
+clear: right;
+    border: 3px solid blue;  
+  }
+ 
+  
+
+
+	
+
+.img {
+  display: inline-block;
+  align-items: "padding-top";
+  
+  width: 50%;
+  height: 50%;
+  
+  
+  
+}
+
+
+
+
+}
+</style>
+</head>
+
+<body>
+<div>
+
+
+<div backgroud-color="blue" width:100% id="frist">
+<form>
+<h2 align="left">
+<label  face book><b>face book</b></label></h2>
+<h4 align="right"><label  name="Email">Email</label>
+  <input align="right" type="text" id="email" name="email">
+  <label align="right" name="password">Password</label>
+  <input align="right" type="password" id="password" name="password">
+<input align="right" type="button" id="login" value="Submit"><br>
+ </h4>
+
+</div>
+
+ 
+<br>
+
+<div id="second"  align="right">
+   <h4 align="right">
+  <label  id="firstname-label" class="firstname">Firstname
+ </label>
+
+  
+  <input class=" name" value="" name="FirstName" id="FirstName"  type="text"><br>
+  <span style="display: block;" class="text" id="firstname"></span><br>
+  </label>
+  <label id="lastname-label" class="lastname">lastname
+ 
+  <input value="" name="LastName" id="LastName" type="text">
+  <span style="display: block;" class="text" id="lastname-placeholder"></span><br>
+  </label>
+  <label id="phone" class="phone">phone number
+ </label>
+
+  <input value="" name="phone" id="phone" type="text"><br>
+  <span style="display: block;" class="text" id="lastname-placeholder"></span><br><br>
+  </label>
+ <label   name="Email">Email</label>
+  <input  type="text" id="email" name="email">
+    <span style="display: block;" class="text" id="lastname-placeholder"></span><br>
+  <label  name="rEmail">Reenter Email</label>
+  <input  type="text" id="remail" name="email">
+    <span style="display: block;" class="text" id="lastname-placeholder"></span><br>
+  <label  name="password">Password</label>
+  <input  type="password" id="password" name="password">
+    <span style="display: block;" class="text" id="lastname-placeholder"></span><br>
+     
+
+     <label  name="gender">gender</label> 
+    <input type="radio" name="gender" checked>Male<br>
+     <span style="display: block;" class="text" id="lastname-placeholder"></span><br>
+<input type="radio" name="gender" >Female<br>
+ <span style="display: block;" class="text" id="lastname-placeholder"></span><br>
+<input type="radio" name="gender" >Other<br>
+ <span style="display: block;" class="text" id="lastname-placeholder"></span><br>
+
+ 
+     
+    
+   
+    
+  </div>
+
+</div>
+
+
+</form>
+</body>
+</html>
